@@ -1,4 +1,3 @@
-import numpy as n
 import fractions as f
 
 class RSA:
