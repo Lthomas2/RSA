@@ -1,0 +1,8 @@
+This is a basic RSA encrypter/decrypter/keygen
+
+Example use of program:
+a=RSA(prime1,prime2) #replace prime1 and prime2 by real primes
+encrypt('Blah blah blah',a.publicKey) #use the public key to encrypt, will not work if you use private key
+1023124124123123123 # hypothetical output
+decrypt('1023124124123123123',a.privateKey)
+'Blah blah blah'
